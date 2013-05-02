@@ -1,0 +1,24 @@
+{
+  "name": "foo",
+  "description": "demo of writing a nodejs module",
+  "version": "0.0.1",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "readmeFilename": "README.md",
+  "main": "lib/foo.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": "",
+  "keywords": [
+    "ut"
+  ],
+  "author": "hemin",
+  "license": "BSD"
+}
