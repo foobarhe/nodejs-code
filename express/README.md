@@ -1,15 +1,15 @@
-1. install express globally  
-
 ```
-$ npm install -g express
-$ sudo cp -fR /usr/local/lib/node_modules/* /usr/local/lib/node/
+$ clone code to local
+$ npm install
+$ npm test	//run unit tests
+
+//test as an http server
+$ node ./app.js
+$ curl http://localhost:8889/hello.txt
 ```
 
-http://stackoverflow.com/questions/5919629/express-module-not-found-when-installed-with-npm
-
-2. run  
-
-```
-$ node app.js
-$ curl http://localhost:8889/hello.html
-```
+links:  
+* http://expressjs.com/
+* http://visionmedia.github.io/mocha/
+* https://github.com/visionmedia/supertest
+* http://stackoverflow.com/questions/9517880/how-does-one-unit-test-routes-with-express
